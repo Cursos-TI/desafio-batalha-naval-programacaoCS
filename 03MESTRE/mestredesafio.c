@@ -78,3 +78,7 @@ void criarHabilidadeCruz(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], in
         }
     }
 }
+
+    // Função para criar a habilidade de Octaedro no Tabuleiro
+
+void criarHabilidadeOctaedro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int x, int y) {

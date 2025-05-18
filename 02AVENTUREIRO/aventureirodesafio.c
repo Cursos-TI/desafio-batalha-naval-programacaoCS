@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função para imprimir o Tabuleiro
+    // Função para imprimir o Tabuleiro
 
 void imprimirTabuleiro(int tabuleiro[10][10]) {
     printf("  A B C D E F G H I J\n");
@@ -18,6 +18,16 @@ int main() {
     printf("TABULEIRO BATALHA NAVAL - AVENTUREIRO! \n");
     printf(" \n");
 
-     // Inicializar o Tabuleiro com ZEROS (água)
+    // Inicializar o Tabuleiro com ZEROS (água)
 
      int tabuleiro[10][10] = {0};
+
+    // Posicionar Navios Horizontais e Verticais
+
+    tabuleiro[2][5] = 3;
+    tabuleiro[2][6] = 3;
+    tabuleiro[2][7] = 3;
+
+    tabuleiro[6][7] = 3;
+    tabuleiro[7][7] = 3;
+    tabuleiro[8][7] = 3;

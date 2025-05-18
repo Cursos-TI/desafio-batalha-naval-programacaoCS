@@ -27,4 +27,26 @@ void imprimirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
     }
 }
 
-return
+// Função para criar a habilidade de Cone no Tabuleiro
+
+void criarHabilidadeCone(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int x, int y) {
+
+    // Loop para criar a forma de Cone
+
+    for (int i = 0; i < 3; i++) {
+
+        // Loop para criar a base do Cone
+
+        for (int j = -i; j <= i; j++) {
+
+            // Verificação da Posição 
+
+            if (x + i >= 0 && x + i < TAMANHO_TABULEIRO && y + j >= 0 && y + j < TAMANHO_TABULEIRO && tabuleiro[x + i][y + j] != 3) {
+                
+                // Marcação da Posição 
+                
+                tabuleiro[x + i][y + j] = 5;
+            }
+        }
+    }
+}

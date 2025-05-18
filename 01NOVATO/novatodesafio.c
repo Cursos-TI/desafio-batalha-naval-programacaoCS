@@ -10,3 +10,12 @@ void imprimirTabuleiro(int tabuleiro[10][10]) {
         printf("\n");
     }
 }
+
+int main() {
+
+    printf("TABULEIRO BATALHA NAVAL - NOVATO! \n");
+    printf(" \n");
+
+    // Inicializar o Tabuleiro com '0s' (ZEROS) representando Água
+
+    int tabuleiro[10][10] = {0};

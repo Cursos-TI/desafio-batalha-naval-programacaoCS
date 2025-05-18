@@ -26,3 +26,5 @@ void imprimirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
         printf("\n");
     }
 }
+
+uujj

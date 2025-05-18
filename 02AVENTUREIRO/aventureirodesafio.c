@@ -45,3 +45,5 @@ int main() {
     // Imprimir o Tabuleiro
 
     imprimirTabuleiro(tabuleiro);
+
+}

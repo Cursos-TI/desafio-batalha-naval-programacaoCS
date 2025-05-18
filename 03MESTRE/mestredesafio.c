@@ -129,3 +129,9 @@ int main() {
     tabuleiro[7][2] = 3;
     tabuleiro[8][1] = 3;
     tabuleiro[9][0] = 3;
+
+    // Criação das Habilidades no Tabuleiro
+
+    criarHabilidadeCone(tabuleiro, 0, 4);
+    criarHabilidadeCruz(tabuleiro, 5, 5);
+    criarHabilidadeOctaedro(tabuleiro, 8, 3);

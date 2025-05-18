@@ -139,3 +139,5 @@ int main() {
     // Impressão do Tabuleiro com as Habilidades
 
     imprimirTabuleiro(tabuleiro);
+
+}

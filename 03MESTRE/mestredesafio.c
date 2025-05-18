@@ -140,4 +140,6 @@ int main() {
 
     imprimirTabuleiro(tabuleiro);
 
+    return 0;
+
 }

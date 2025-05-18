@@ -31,3 +31,13 @@ int main() {
     tabuleiro[6][7] = 3;
     tabuleiro[7][7] = 3;
     tabuleiro[8][7] = 3;
+
+    // Posicionar Navios Diagonais
+
+    tabuleiro[3][3] = 3;
+    tabuleiro[4][4] = 3;
+    tabuleiro[5][5] = 3;
+
+    tabuleiro[7][2] = 3;
+    tabuleiro[8][1] = 3;
+    tabuleiro[9][0] = 3;

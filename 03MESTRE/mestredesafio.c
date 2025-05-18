@@ -88,3 +88,19 @@ void criarHabilidadeOctaedro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]
     if (x >= 0 && x < TAMANHO_TABULEIRO && y >= 0 && y < TAMANHO_TABULEIRO && tabuleiro[x][y] != 3) {
         tabuleiro[x][y] = 5;
     }
+
+    // Marcação das posições Adjacentes afetadas pela Habilidade
+
+    if (x - 1 >= 0 && x - 1 < TAMANHO_TABULEIRO && y >= 0 && y < TAMANHO_TABULEIRO && tabuleiro[x - 1][y] != 3) {
+        tabuleiro[x - 1][y] = 5;
+    }
+    if (x + 1 >= 0 && x + 1 < TAMANHO_TABULEIRO && y >= 0 && y < TAMANHO_TABULEIRO && tabuleiro[x + 1][y] != 3) {
+        tabuleiro[x + 1][y] = 5;
+    }
+    if (x >= 0 && x < TAMANHO_TABULEIRO && y - 1 >= 0 && y - 1 < TAMANHO_TABULEIRO && tabuleiro[x][y - 1] != 3) {
+        tabuleiro[x][y - 1] = 5;
+    }
+    if (x >= 0 && x < TAMANHO_TABULEIRO && y + 1 >= 0 && y + 1 < TAMANHO_TABULEIRO && tabuleiro[x][y + 1] != 3) {
+        tabuleiro[x][y + 1] = 5;
+    }
+}

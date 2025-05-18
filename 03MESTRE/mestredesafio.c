@@ -113,3 +113,19 @@ int main() {
     // Inicialização do Tabuleiro com Zeros
 
     int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};
+
+    // Posicionamento dos Navios no Tabuleiro
+
+    tabuleiro[2][5] = 3;
+    tabuleiro[2][6] = 3;
+    tabuleiro[2][7] = 3;
+    tabuleiro[6][7] = 3;
+    tabuleiro[7][7] = 3;
+    tabuleiro[8][7] = 3;
+
+    tabuleiro[3][3] = 3;
+    tabuleiro[4][4] = 3;
+    tabuleiro[5][5] = 3;
+    tabuleiro[7][2] = 3;
+    tabuleiro[8][1] = 3;
+    tabuleiro[9][0] = 3;

@@ -104,3 +104,12 @@ void criarHabilidadeOctaedro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]
         tabuleiro[x][y + 1] = 5;
     }
 }
+
+int main() {
+
+    printf("TABULEIRO BATALHA NAVAL - MESTRE! \n");
+    printf(" \n");
+
+    // Inicialização do Tabuleiro com Zeros
+
+    int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};

@@ -50,3 +50,31 @@ void criarHabilidadeCone(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], in
         }
     }
 }
+
+// Função para criar a habilidade de Cruz no Tabuleiro
+
+void criarHabilidadeCruz(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int x, int y) {
+
+    // Loop para criar a forma de Cruz
+
+    for (int i = -2; i <= 2; i++) {
+
+        // Verificação da Posição
+
+        if (x >= 0 && x < TAMANHO_TABULEIRO && y + i >= 0 && y + i < TAMANHO_TABULEIRO && tabuleiro[x][y + i] != 3) {
+
+            // Marcação da Posição
+
+            tabuleiro[x][y + i] = 5;
+        }
+
+        // Verificação da Posição 
+
+        if (x + i >= 0 && x + i < TAMANHO_TABULEIRO && y >= 0 && y < TAMANHO_TABULEIRO && tabuleiro[x + i][y] != 3) {
+
+            // Marcação da Posição 
+
+            tabuleiro[x + i][y] = 5;
+        }
+    }
+}

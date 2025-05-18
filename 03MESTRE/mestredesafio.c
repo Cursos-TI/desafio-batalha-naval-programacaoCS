@@ -135,3 +135,7 @@ int main() {
     criarHabilidadeCone(tabuleiro, 0, 4);
     criarHabilidadeCruz(tabuleiro, 5, 5);
     criarHabilidadeOctaedro(tabuleiro, 8, 3);
+
+    // Impressão do Tabuleiro com as Habilidades
+
+    imprimirTabuleiro(tabuleiro);
